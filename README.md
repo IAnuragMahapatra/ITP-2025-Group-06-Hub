@@ -1,6 +1,6 @@
 # 🏆 ITP-2025-Group-06-Hub
 
-This repository serves as the central hub for collecting, reviewing, and evaluating assignments submitted by **Group 06** of the *Introduction to Programming Boot Camp 2025*, hosted by **Enigma – the official web and coding club of VSSUT, Burla**.
+This repository serves as the central hub for collecting, reviewing and evaluating assignments submitted by **Group 06** of the *Introduction to Programming Boot Camp 2025*, hosted by **Enigma – the official web and coding club of VSSUT, Burla**.
 
 [![GitHub issues](https://img.shields.io/github/issues/IAnuragMahapatra/ITP-2025-Group-06-Hub?style=flat-square&color=red)](https://github.com/IAnuragMahapatra/ITP-2025-Group-06-Hub/issues)
 [![GitHub forks](https://img.shields.io/github/forks/IAnuragMahapatra/ITP-2025-Group-06-Hub?style=flat-square&color=blue)](https://github.com/IAnuragMahapatra/ITP-2025-Group-06-Hub/network)
@@ -66,7 +66,7 @@ Follow these steps to ensure a smooth submission process:
    git commit -m "Add my solution for week-n assignment"
    ```
 
-   > Replace week-n with the correct week number.
+   Replace `week-n` with the correct week number.
 
 5. **Sync Your Fork with the Main Repository**
 
