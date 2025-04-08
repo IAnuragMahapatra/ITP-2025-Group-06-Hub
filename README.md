@@ -84,7 +84,6 @@ Follow these steps to ensure a smooth submission process:
    ```
 
 6. **Pull & Push Your Changes**  
-   To make sure your branch is fully up-to-date with your remote fork before pushing your changes, run: 
 
    ```bash
    git pull origin main
