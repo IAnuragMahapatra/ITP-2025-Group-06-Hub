@@ -11,7 +11,7 @@ int main() {
 
     for (char ch : str) {
         if (isalpha(ch)) {
-            result += ch; // Keep only alphabet characters
+            result += ch;
         }
     }
 
