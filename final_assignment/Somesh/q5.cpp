@@ -16,8 +16,8 @@ int main() {
         cin>>arr[i];
     }
 
-    int distinct[n]; // New array to store distinct elements
-    int size = 0;    // Size of new array
+    int distinct[n];
+    int size = 0;
 
     for (int i = 0; i < n; i++) {
         bool isDuplicate = false;
