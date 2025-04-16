@@ -18,7 +18,7 @@ int main() {
 
     for (int i = 0; i < str.length(); i++) {
         if (str[i] != ch) {
-            result += str[i]; // Keep character if it's not the one to remove
+            result += str[i];
         }
     }
 
