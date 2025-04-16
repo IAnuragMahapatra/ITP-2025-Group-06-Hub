@@ -4,7 +4,6 @@
 #include <iostream>
 using namespace std;
 
-// Function to reverse a part of array
 void reverse(int arr[], int start, int end) {
     while (start < end) {
         swap(arr[start], arr[end]);
@@ -14,10 +13,10 @@ void reverse(int arr[], int start, int end) {
 }
 
 void rotateRight(int arr[], int n, int k) {
-    k = k % n; // Normalize k if greater than array size
-    reverse(arr, 0, n - 1);       // Step 1: Reverse whole array
-    reverse(arr, 0, k - 1);       // Step 2: Reverse first k elements
-    reverse(arr, k, n - 1);       // Step 3: Reverse remaining elements
+    k = k % n;
+    reverse(arr, 0, n - 1);
+    reverse(arr, 0, k - 1);
+    reverse(arr, k, n - 1);
 }
 
 void printArray(int arr[], int n) {
