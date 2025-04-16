@@ -10,9 +10,8 @@ int main() {
     getline(cin, str);
 
     for (int i = 0; i < str.length(); i++) {
-        // Check if the character is uppercase (A-Z)
         if (str[i] >= 'A' && str[i] <= 'Z') {
-            str[i] = str[i] + 32;  // Convert to lowercase by adding ASCII difference
+            str[i] = str[i] + 32;
         }
     }
 
