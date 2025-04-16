@@ -5,10 +5,9 @@
 using namespace std;
 
 void moveNegativesToLeft(int arr[], int n) {
-    int j = 0; // index for next negative number
+    int j = 0; 
     for (int i = 0; i < n; i++) {
         if (arr[i] < 0) {
-            // Swap arr[i] with arr[j]
             if (i != j) {
                 swap(arr[i], arr[j]);
             }
@@ -29,7 +28,6 @@ int main() {
     cout<<"Enter the size of the array: ";
     cin>>n;
     int arr[n];
-//Enter the array elements:->
 
     for(int i = 0;i < n;i++)
     {
