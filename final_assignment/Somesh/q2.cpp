@@ -7,7 +7,7 @@ using namespace std;
 int main() {
     string str;
     cout << "Enter a string: ";
-    getline(cin, str); // Read full line including spaces
+    getline(cin, str);
 
     int alphabets = 0, digits = 0, specialChars = 0;
 
@@ -16,7 +16,7 @@ int main() {
             alphabets++;
         else if (isdigit(ch))
             digits++;
-        else if (!isspace(ch)) // Ignore spaces from special char count
+        else if (!isspace(ch))
             specialChars++;
     }
 
