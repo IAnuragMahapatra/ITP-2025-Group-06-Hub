@@ -83,8 +83,11 @@ Follow these steps to ensure a smooth submission process:
    git push origin main
    ```
 
-6. **Push Your Changes**  
+6. **Pull & Push Your Changes**  
 
+   ```bash
+   git pull origin main
+   ```
    ```bash
    git push origin main
    ```
